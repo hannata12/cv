@@ -1,0 +1,69 @@
+
+.fil{
+    display: flex;
+    background-color: beige;
+    justify-content:space-evenly;
+
+ 
+}
+#ima{
+    border-radius: 50px;
+}
+.conteneur{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: darkgrey;
+    justify-content: space-around
+    
+    
+
+
+}
+.exp{
+    background-color: beige;
+}
+#for{
+    background-color: beige;
+
+}
+#ce{
+    background-color: beige
+}
+#om{
+    background-color: beige
+}
+@media screen and (max-width:621px) {
+    .conteneur{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        align-items: center;
+        background-color: rgb(182, 180, 168);
+        justify-content: space-around
+
+    
+    }
+   body{
+       font-size: small;
+   }
+        
+    
+}
+
+@media screen and (max-width:290px){
+
+    body{
+        font-size: 30%;
+    }
+}
+
+    
+
+    
+
+
+
+
+    
+    
